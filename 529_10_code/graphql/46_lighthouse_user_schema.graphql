@@ -1,0 +1,10 @@
+type User {
+    id: ID!
+    fullName: String!
+    email: String!
+    created_at: DateTime!
+}
+
+type Query {
+    users: [User!]!
+}

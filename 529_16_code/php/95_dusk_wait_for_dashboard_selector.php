@@ -1,0 +1,3 @@
+<?php
+
+$browser->waitFor('@dashboard');

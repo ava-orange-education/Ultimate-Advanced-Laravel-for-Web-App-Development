@@ -1,0 +1,443 @@
+[
+  {
+    "number": 1,
+    "source_table_index": 0,
+    "path": "text/01_api_versioning_uri_examples.txt",
+    "type": "text",
+    "filename": "01_api_versioning_uri_examples.txt"
+  },
+  {
+    "number": 2,
+    "source_table_index": 1,
+    "path": "php/02_identity_api_routes.php",
+    "type": "php",
+    "filename": "02_identity_api_routes.php"
+  },
+  {
+    "number": 3,
+    "source_table_index": 2,
+    "path": "php/03_create_user_request.php",
+    "type": "php",
+    "filename": "03_create_user_request.php"
+  },
+  {
+    "number": 4,
+    "source_table_index": 3,
+    "path": "php/04_create_user_controller.php",
+    "type": "php",
+    "filename": "04_create_user_controller.php"
+  },
+  {
+    "number": 5,
+    "source_table_index": 4,
+    "path": "php/05_list_users_controller.php",
+    "type": "php",
+    "filename": "05_list_users_controller.php"
+  },
+  {
+    "number": 6,
+    "source_table_index": 5,
+    "path": "php/06_list_users_query.php",
+    "type": "php",
+    "filename": "06_list_users_query.php"
+  },
+  {
+    "number": 7,
+    "source_table_index": 6,
+    "path": "php/07_list_users_handler.php",
+    "type": "php",
+    "filename": "07_list_users_handler.php"
+  },
+  {
+    "number": 8,
+    "source_table_index": 7,
+    "path": "php/08_single_user_resource_usage.php",
+    "type": "php",
+    "filename": "08_single_user_resource_usage.php"
+  },
+  {
+    "number": 9,
+    "source_table_index": 8,
+    "path": "php/09_user_resource_collection_usage.php",
+    "type": "php",
+    "filename": "09_user_resource_collection_usage.php"
+  },
+  {
+    "number": 10,
+    "source_table_index": 9,
+    "path": "php/10_user_resource.php",
+    "type": "php",
+    "filename": "10_user_resource.php"
+  },
+  {
+    "number": 11,
+    "source_table_index": 10,
+    "path": "json/11_user_resource_example_output.json",
+    "type": "json",
+    "filename": "11_user_resource_example_output.json"
+  },
+  {
+    "number": 12,
+    "source_table_index": 11,
+    "path": "json/12_paginated_resource_example_output.json",
+    "type": "json",
+    "filename": "12_paginated_resource_example_output.json"
+  },
+  {
+    "number": 13,
+    "source_table_index": 12,
+    "path": "php/13_module_service_provider_api_routes.php",
+    "type": "php",
+    "filename": "13_module_service_provider_api_routes.php"
+  },
+  {
+    "number": 14,
+    "source_table_index": 13,
+    "path": "php/14_api_exception_responder.php",
+    "type": "php",
+    "filename": "14_api_exception_responder.php"
+  },
+  {
+    "number": 15,
+    "source_table_index": 14,
+    "path": "php/15_laravel_exception_bootstrap_registration.php",
+    "type": "php",
+    "filename": "15_laravel_exception_bootstrap_registration.php"
+  },
+  {
+    "number": 16,
+    "source_table_index": 15,
+    "path": "json/16_validation_error_response.json",
+    "type": "json",
+    "filename": "16_validation_error_response.json"
+  },
+  {
+    "number": 17,
+    "source_table_index": 16,
+    "path": "json/17_server_error_response.json",
+    "type": "json",
+    "filename": "17_server_error_response.json"
+  },
+  {
+    "number": 18,
+    "source_table_index": 17,
+    "path": "php/18_throttled_api_route_group.php",
+    "type": "php",
+    "filename": "18_throttled_api_route_group.php"
+  },
+  {
+    "number": 19,
+    "source_table_index": 18,
+    "path": "text/19_throttling_parameters_table.txt",
+    "type": "text",
+    "filename": "19_throttling_parameters_table.txt"
+  },
+  {
+    "number": 20,
+    "source_table_index": 19,
+    "path": "php/20_named_api_rate_limiter.php",
+    "type": "php",
+    "filename": "20_named_api_rate_limiter.php"
+  },
+  {
+    "number": 21,
+    "source_table_index": 20,
+    "path": "php/21_dynamic_api_rate_limiter.php",
+    "type": "php",
+    "filename": "21_dynamic_api_rate_limiter.php"
+  },
+  {
+    "number": 22,
+    "source_table_index": 21,
+    "path": "text/22_rate_limit_response_headers.txt",
+    "type": "text",
+    "filename": "22_rate_limit_response_headers.txt"
+  },
+  {
+    "number": 23,
+    "source_table_index": 22,
+    "path": "http/23_authorization_bearer_header.http",
+    "type": "http",
+    "filename": "23_authorization_bearer_header.http"
+  },
+  {
+    "number": 24,
+    "source_table_index": 23,
+    "path": "shell/24_install_laravel_sanctum.sh",
+    "type": "shell",
+    "filename": "24_install_laravel_sanctum.sh"
+  },
+  {
+    "number": 25,
+    "source_table_index": 24,
+    "path": "php/25_issue_sanctum_token.php",
+    "type": "php",
+    "filename": "25_issue_sanctum_token.php"
+  },
+  {
+    "number": 26,
+    "source_table_index": 25,
+    "path": "json/26_login_token_response.json",
+    "type": "json",
+    "filename": "26_login_token_response.json"
+  },
+  {
+    "number": 27,
+    "source_table_index": 26,
+    "path": "php/27_protect_routes_with_sanctum.php",
+    "type": "php",
+    "filename": "27_protect_routes_with_sanctum.php"
+  },
+  {
+    "number": 28,
+    "source_table_index": 27,
+    "path": "php/28_sanctum_read_ability_token.php",
+    "type": "php",
+    "filename": "28_sanctum_read_ability_token.php"
+  },
+  {
+    "number": 29,
+    "source_table_index": 28,
+    "path": "php/29_sanctum_read_write_ability_token.php",
+    "type": "php",
+    "filename": "29_sanctum_read_write_ability_token.php"
+  },
+  {
+    "number": 30,
+    "source_table_index": 29,
+    "path": "php/30_check_sanctum_token_ability.php",
+    "type": "php",
+    "filename": "30_check_sanctum_token_ability.php"
+  },
+  {
+    "number": 31,
+    "source_table_index": 30,
+    "path": "php/31_command_bus_write_ability_check.php",
+    "type": "php",
+    "filename": "31_command_bus_write_ability_check.php"
+  },
+  {
+    "number": 32,
+    "source_table_index": 31,
+    "path": "php/32_revoke_all_sanctum_tokens.php",
+    "type": "php",
+    "filename": "32_revoke_all_sanctum_tokens.php"
+  },
+  {
+    "number": 33,
+    "source_table_index": 32,
+    "path": "php/33_revoke_current_sanctum_token.php",
+    "type": "php",
+    "filename": "33_revoke_current_sanctum_token.php"
+  },
+  {
+    "number": 34,
+    "source_table_index": 33,
+    "path": "php/34_passport_define_scopes.php",
+    "type": "php",
+    "filename": "34_passport_define_scopes.php"
+  },
+  {
+    "number": 35,
+    "source_table_index": 34,
+    "path": "php/35_passport_route_scope_middleware.php",
+    "type": "php",
+    "filename": "35_passport_route_scope_middleware.php"
+  },
+  {
+    "number": 36,
+    "source_table_index": 35,
+    "path": "php/36_passport_token_can_scope_check.php",
+    "type": "php",
+    "filename": "36_passport_token_can_scope_check.php"
+  },
+  {
+    "number": 37,
+    "source_table_index": 36,
+    "path": "shell/37_create_passport_client.sh",
+    "type": "shell",
+    "filename": "37_create_passport_client.sh"
+  },
+  {
+    "number": 38,
+    "source_table_index": 37,
+    "path": "http/38_client_credentials_token_request.http",
+    "type": "http",
+    "filename": "38_client_credentials_token_request.http"
+  },
+  {
+    "number": 39,
+    "source_table_index": 38,
+    "path": "json/39_client_credentials_token_response.json",
+    "type": "json",
+    "filename": "39_client_credentials_token_response.json"
+  },
+  {
+    "number": 40,
+    "source_table_index": 39,
+    "path": "http/40_oauth_authorization_header.http",
+    "type": "http",
+    "filename": "40_oauth_authorization_header.http"
+  },
+  {
+    "number": 41,
+    "source_table_index": 40,
+    "path": "php/41_protect_orders_with_passport_scope.php",
+    "type": "php",
+    "filename": "41_protect_orders_with_passport_scope.php"
+  },
+  {
+    "number": 42,
+    "source_table_index": 41,
+    "path": "php/42_passport_token_expiration.php",
+    "type": "php",
+    "filename": "42_passport_token_expiration.php"
+  },
+  {
+    "number": 43,
+    "source_table_index": 42,
+    "path": "php/43_passport_api_guard_route_group.php",
+    "type": "php",
+    "filename": "43_passport_api_guard_route_group.php"
+  },
+  {
+    "number": 44,
+    "source_table_index": 43,
+    "path": "shell/44_install_lighthouse.sh",
+    "type": "shell",
+    "filename": "44_install_lighthouse.sh"
+  },
+  {
+    "number": 45,
+    "source_table_index": 44,
+    "path": "shell/45_publish_lighthouse_schema.sh",
+    "type": "shell",
+    "filename": "45_publish_lighthouse_schema.sh"
+  },
+  {
+    "number": 46,
+    "source_table_index": 45,
+    "path": "graphql/46_lighthouse_user_schema.graphql",
+    "type": "graphql",
+    "filename": "46_lighthouse_user_schema.graphql"
+  },
+  {
+    "number": 47,
+    "source_table_index": 46,
+    "path": "shell/47_publish_lighthouse_config.sh",
+    "type": "shell",
+    "filename": "47_publish_lighthouse_config.sh"
+  },
+  {
+    "number": 48,
+    "source_table_index": 47,
+    "path": "php/48_lighthouse_users_resolver.php",
+    "type": "php",
+    "filename": "48_lighthouse_users_resolver.php"
+  },
+  {
+    "number": 49,
+    "source_table_index": 48,
+    "path": "graphql/49_lighthouse_users_query_field.graphql",
+    "type": "graphql",
+    "filename": "49_lighthouse_users_query_field.graphql"
+  },
+  {
+    "number": 50,
+    "source_table_index": 49,
+    "path": "graphql/50_lighthouse_create_user_mutation.graphql",
+    "type": "graphql",
+    "filename": "50_lighthouse_create_user_mutation.graphql"
+  },
+  {
+    "number": 51,
+    "source_table_index": 50,
+    "path": "php/51_lighthouse_create_user_resolver.php",
+    "type": "php",
+    "filename": "51_lighthouse_create_user_resolver.php"
+  },
+  {
+    "number": 52,
+    "source_table_index": 51,
+    "path": "shell/52_install_graphql_playground.sh",
+    "type": "shell",
+    "filename": "52_install_graphql_playground.sh"
+  },
+  {
+    "number": 53,
+    "source_table_index": 52,
+    "path": "shell/53_install_rebing_graphql.sh",
+    "type": "shell",
+    "filename": "53_install_rebing_graphql.sh"
+  },
+  {
+    "number": 54,
+    "source_table_index": 53,
+    "path": "shell/54_publish_rebing_graphql_config.sh",
+    "type": "shell",
+    "filename": "54_publish_rebing_graphql_config.sh"
+  },
+  {
+    "number": 55,
+    "source_table_index": 54,
+    "path": "php/55_rebing_user_type.php",
+    "type": "php",
+    "filename": "55_rebing_user_type.php"
+  },
+  {
+    "number": 56,
+    "source_table_index": 55,
+    "path": "php/56_rebing_users_query.php",
+    "type": "php",
+    "filename": "56_rebing_users_query.php"
+  },
+  {
+    "number": 57,
+    "source_table_index": 56,
+    "path": "php/57_rebing_create_user_mutation.php",
+    "type": "php",
+    "filename": "57_rebing_create_user_mutation.php"
+  },
+  {
+    "number": 58,
+    "source_table_index": 57,
+    "path": "javascript/58_fetch_rest_users.js",
+    "type": "javascript",
+    "filename": "58_fetch_rest_users.js"
+  },
+  {
+    "number": 59,
+    "source_table_index": 58,
+    "path": "javascript/59_fetch_graphql_users.js",
+    "type": "javascript",
+    "filename": "59_fetch_graphql_users.js"
+  },
+  {
+    "number": 60,
+    "source_table_index": 59,
+    "path": "http/60_authorization_bearer_header_duplicate.http",
+    "type": "http",
+    "filename": "60_authorization_bearer_header_duplicate.http"
+  },
+  {
+    "number": 61,
+    "source_table_index": 60,
+    "path": "json/61_success_response_shape.json",
+    "type": "json",
+    "filename": "61_success_response_shape.json"
+  },
+  {
+    "number": 62,
+    "source_table_index": 61,
+    "path": "json/62_error_response_shape.json",
+    "type": "json",
+    "filename": "62_error_response_shape.json"
+  },
+  {
+    "number": "demo",
+    "path": "chapter_10_executable_demo.php",
+    "type": "php",
+    "filename": "chapter_10_executable_demo.php",
+    "output": "output/chapter_10_executable_demo_output.txt"
+  }
+]

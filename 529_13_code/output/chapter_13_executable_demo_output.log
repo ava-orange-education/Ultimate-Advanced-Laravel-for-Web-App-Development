@@ -1,0 +1,32 @@
+{
+    "registration_response": {
+        "status": "created"
+    },
+    "queued_jobs": 2,
+    "processed_jobs": [
+        "SendWelcomeEmailJob",
+        "GenerateInvoiceJob"
+    ],
+    "dashboard_metrics": {
+        "users": 42,
+        "revenue": 12500
+    },
+    "featured_products": [
+        "Keyboard",
+        "Monitor",
+        "USB-C Hub"
+    ],
+    "session_driver": "redis",
+    "cache_driver": "redis",
+    "database": {
+        "read_hosts": [
+            "read-db-1",
+            "read-db-2"
+        ],
+        "write_host": "write-db",
+        "sticky": true
+    },
+    "health_check": {
+        "status": "ok"
+    }
+}

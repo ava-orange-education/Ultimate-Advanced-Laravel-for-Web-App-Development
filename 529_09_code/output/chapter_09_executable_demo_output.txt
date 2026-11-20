@@ -1,0 +1,5 @@
+Dispatching UserRegistered event...
+Granted 100 signup credits to john@example.com
+Skipped duplicate signup credit for user 42
+Recorded telemetry for user 42
+Final credits for user 42: 100

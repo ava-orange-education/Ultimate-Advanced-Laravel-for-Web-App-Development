@@ -1,0 +1,1 @@
+UserModel::with('orders:id,user_id,amount')->get();

@@ -1,0 +1,1 @@
+User::orderBy('id')->cursorPaginate(50);

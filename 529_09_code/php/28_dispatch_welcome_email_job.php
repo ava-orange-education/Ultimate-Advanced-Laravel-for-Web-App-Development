@@ -1,0 +1,3 @@
+<?php
+
+SendWelcomeEmailJob::dispatch($userId);

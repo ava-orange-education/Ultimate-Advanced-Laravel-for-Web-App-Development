@@ -1,0 +1,6 @@
+command.started: RegisterUserCommand
+command.succeeded: RegisterUserCommand (312 ms)
+created_user_id: user_1
+registered_users: [
+    "john@example.com"
+]

@@ -1,0 +1,181 @@
+{
+  "chapter": 13,
+  "source_document": "529_13_PD_Reviewed_SR.docx",
+  "snippet_count_from_chapter": 23,
+  "package_item_count": 25,
+  "items": [
+    {
+      "id": 1,
+      "source_table": 0,
+      "description": "Synchronous Registration Controller",
+      "language": "php",
+      "path": "php/01_synchronous_registration_controller.php"
+    },
+    {
+      "id": 2,
+      "source_table": 1,
+      "description": "Queued Registration Controller",
+      "language": "php",
+      "path": "php/02_queued_registration_controller.php"
+    },
+    {
+      "id": 3,
+      "source_table": 2,
+      "description": "Update Dashboard Metrics Job",
+      "language": "php",
+      "path": "php/03_update_dashboard_metrics_job.php"
+    },
+    {
+      "id": 4,
+      "source_table": 3,
+      "description": "Dashboard Metrics Controller",
+      "language": "php",
+      "path": "php/04_dashboard_metrics_controller.php"
+    },
+    {
+      "id": 5,
+      "source_table": 4,
+      "description": "Session Driver File",
+      "language": "env",
+      "path": "config/05_session_driver_file.env"
+    },
+    {
+      "id": 6,
+      "source_table": 5,
+      "description": "Session Driver Redis",
+      "language": "env",
+      "path": "config/06_session_driver_redis.env"
+    },
+    {
+      "id": 7,
+      "source_table": 6,
+      "description": "Session Driver File Repeat",
+      "language": "env",
+      "path": "config/07_session_driver_file_repeat.env"
+    },
+    {
+      "id": 8,
+      "source_table": 7,
+      "description": "Database Session Setup",
+      "language": "sh",
+      "path": "shell/08_database_session_setup.sh"
+    },
+    {
+      "id": 9,
+      "source_table": 8,
+      "description": "Redis Session Configuration",
+      "language": "env",
+      "path": "config/09_redis_session_configuration.env"
+    },
+    {
+      "id": 10,
+      "source_table": 9,
+      "description": "Session Config Array",
+      "language": "php",
+      "path": "config/10_session_config_array.php"
+    },
+    {
+      "id": 11,
+      "source_table": 10,
+      "description": "Session Context Example",
+      "language": "php",
+      "path": "php/11_session_context_example.php"
+    },
+    {
+      "id": 12,
+      "source_table": 11,
+      "description": "Featured Products Cache Controller",
+      "language": "php",
+      "path": "php/12_featured_products_cache_controller.php"
+    },
+    {
+      "id": 13,
+      "source_table": 12,
+      "description": "Featured Products Cache Remember",
+      "language": "php",
+      "path": "php/13_featured_products_cache_remember.php"
+    },
+    {
+      "id": 14,
+      "source_table": 13,
+      "description": "Product Update Cache Invalidation",
+      "language": "php",
+      "path": "php/14_product_update_cache_invalidation.php"
+    },
+    {
+      "id": 15,
+      "source_table": 14,
+      "description": "Featured Products Cache Lock",
+      "language": "php",
+      "path": "php/15_featured_products_cache_lock.php"
+    },
+    {
+      "id": 16,
+      "source_table": 15,
+      "description": "User Dashboard Cache Key",
+      "language": "php",
+      "path": "php/16_user_dashboard_cache_key.php"
+    },
+    {
+      "id": 17,
+      "source_table": 16,
+      "description": "Mysql Read Write Split Config",
+      "language": "php",
+      "path": "config/17_mysql_read_write_split_config.php"
+    },
+    {
+      "id": 18,
+      "source_table": 17,
+      "description": "Order Total Sum Query",
+      "language": "php",
+      "path": "php/18_order_total_sum_query.php"
+    },
+    {
+      "id": 19,
+      "source_table": 18,
+      "description": "User Total Spent Increment",
+      "language": "php",
+      "path": "php/19_user_total_spent_increment.php"
+    },
+    {
+      "id": 20,
+      "source_table": 19,
+      "description": "Process Upload Job Dispatch",
+      "language": "php",
+      "path": "php/20_process_upload_job_dispatch.php"
+    },
+    {
+      "id": 21,
+      "source_table": 20,
+      "description": "Config Cache Command",
+      "language": "sh",
+      "path": "shell/21_config_cache_command.sh"
+    },
+    {
+      "id": 22,
+      "source_table": 21,
+      "description": "Redis Cache Session Env",
+      "language": "env",
+      "path": "config/22_redis_cache_session_env.env"
+    },
+    {
+      "id": 23,
+      "source_table": 22,
+      "description": "Health Check Route",
+      "language": "php",
+      "path": "php/23_health_check_route.php"
+    },
+    {
+      "id": 24,
+      "description": "Standalone executable demo",
+      "language": "php",
+      "path": "chapter_13_executable_demo.php"
+    },
+    {
+      "id": 25,
+      "description": "Standalone executable demo output",
+      "language": "log",
+      "path": "output/chapter_13_executable_demo_output.log"
+    }
+  ]
+}

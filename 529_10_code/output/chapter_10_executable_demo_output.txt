@@ -1,0 +1,40 @@
+## API Resource Response
+{
+    "data": {
+        "id": "9b168661-3037-4d76-905c-37e408a286a1",
+        "full_name": "John Doe",
+        "email": "jdoe@example.com",
+        "created_at": "2024-03-20T15:00:00Z"
+    }
+}
+
+## Validation Error Response
+{
+    "success": false,
+    "message": "The given data was invalid.",
+    "errors": {
+        "email": [
+            "The email field is required."
+        ]
+    }
+}
+
+## Sanctum Login Token Response
+{
+    "data": {
+        "token": "1|zQJ7X8f1q..."
+    }
+}
+
+## Token Ability Check
+{
+    "required": "api:write",
+    "allowed": true
+}
+
+## Rate Limit Headers
+{
+    "X-RateLimit-Limit": 60,
+    "X-RateLimit-Remaining": 48
+}
+

@@ -1,0 +1,422 @@
+[
+  {
+    "number": 1,
+    "file": "php/01_direct_eloquent_usage.php",
+    "type": "php",
+    "lines": 5,
+    "description": "direct eloquent usage"
+  },
+  {
+    "number": 2,
+    "file": "text/02_repository_layer_structure.txt",
+    "type": "txt",
+    "lines": 5,
+    "description": "repository layer structure"
+  },
+  {
+    "number": 3,
+    "file": "php/03_user_repository_contract.php",
+    "type": "php",
+    "lines": 12,
+    "description": "user repository contract"
+  },
+  {
+    "number": 4,
+    "file": "php/04_eloquent_user_repository.php",
+    "type": "php",
+    "lines": 40,
+    "description": "eloquent user repository"
+  },
+  {
+    "number": 5,
+    "file": "php/05_service_provider_repository_binding.php",
+    "type": "php",
+    "lines": 4,
+    "description": "service provider repository binding"
+  },
+  {
+    "number": 6,
+    "file": "php/06_create_user_handler.php",
+    "type": "php",
+    "lines": 23,
+    "description": "create user handler"
+  },
+  {
+    "number": 7,
+    "file": "php/07_user_model_orders_relationship.php",
+    "type": "php",
+    "lines": 7,
+    "description": "user model orders relationship"
+  },
+  {
+    "number": 8,
+    "file": "php/08_order_model_user_relationship.php",
+    "type": "php",
+    "lines": 7,
+    "description": "order model user relationship"
+  },
+  {
+    "number": 9,
+    "file": "php/09_lazy_loading_orders.php",
+    "type": "php",
+    "lines": 2,
+    "description": "lazy loading orders"
+  },
+  {
+    "number": 10,
+    "file": "php/10_eager_loading_orders.php",
+    "type": "php",
+    "lines": 1,
+    "description": "eager loading orders"
+  },
+  {
+    "number": 11,
+    "file": "php/11_n_plus_one_problem.php",
+    "type": "php",
+    "lines": 5,
+    "description": "n plus one problem"
+  },
+  {
+    "number": 12,
+    "file": "php/12_n_plus_one_solution.php",
+    "type": "php",
+    "lines": 1,
+    "description": "n plus one solution"
+  },
+  {
+    "number": 13,
+    "file": "php/13_constrained_eager_loading.php",
+    "type": "php",
+    "lines": 3,
+    "description": "constrained eager loading"
+  },
+  {
+    "number": 14,
+    "file": "php/14_select_relationship_columns.php",
+    "type": "php",
+    "lines": 1,
+    "description": "select relationship columns"
+  },
+  {
+    "number": 15,
+    "file": "php/15_project_task_time_aggregation.php",
+    "type": "php",
+    "lines": 5,
+    "description": "project task time aggregation"
+  },
+  {
+    "number": 16,
+    "file": "json/16_project_task_time_aggregation_output.json",
+    "type": "json",
+    "lines": 18,
+    "description": "project task time aggregation output"
+  },
+  {
+    "number": 17,
+    "file": "php/17_transaction_basic.php",
+    "type": "php",
+    "lines": 3,
+    "description": "transaction basic"
+  },
+  {
+    "number": 18,
+    "file": "php/18_transaction_create_order_and_decrement_balance.php",
+    "type": "php",
+    "lines": 5,
+    "description": "transaction create order and decrement balance"
+  },
+  {
+    "number": 19,
+    "file": "php/19_missing_transaction_risk.php",
+    "type": "php",
+    "lines": 5,
+    "description": "missing transaction risk"
+  },
+  {
+    "number": 20,
+    "file": "php/20_transaction_deadlock_retries.php",
+    "type": "php",
+    "lines": 3,
+    "description": "transaction deadlock retries"
+  },
+  {
+    "number": 21,
+    "file": "php/21_manual_transaction_control.php",
+    "type": "php",
+    "lines": 10,
+    "description": "manual transaction control"
+  },
+  {
+    "number": 22,
+    "file": "php/22_create_order_handler_transaction_boundary.php",
+    "type": "php",
+    "lines": 13,
+    "description": "create order handler transaction boundary"
+  },
+  {
+    "number": 23,
+    "file": "php/23_transaction_manager_contract.php",
+    "type": "php",
+    "lines": 4,
+    "description": "transaction manager contract"
+  },
+  {
+    "number": 24,
+    "file": "php/24_laravel_transaction_manager.php",
+    "type": "php",
+    "lines": 7,
+    "description": "laravel transaction manager"
+  },
+  {
+    "number": 25,
+    "file": "php/25_transaction_manager_usage.php",
+    "type": "php",
+    "lines": 3,
+    "description": "transaction manager usage"
+  },
+  {
+    "number": 26,
+    "file": "php/26_load_all_users.php",
+    "type": "php",
+    "lines": 1,
+    "description": "load all users"
+  },
+  {
+    "number": 27,
+    "file": "php/27_chunk_users.php",
+    "type": "php",
+    "lines": 5,
+    "description": "chunk users"
+  },
+  {
+    "number": 28,
+    "file": "php/28_chunk_by_id_users.php",
+    "type": "php",
+    "lines": 5,
+    "description": "chunk by id users"
+  },
+  {
+    "number": 29,
+    "file": "php/29_cursor_iteration_users.php",
+    "type": "php",
+    "lines": 3,
+    "description": "cursor iteration users"
+  },
+  {
+    "number": 30,
+    "file": "php/30_lazy_collection_users.php",
+    "type": "php",
+    "lines": 3,
+    "description": "lazy collection users"
+  },
+  {
+    "number": 31,
+    "file": "php/31_paginate_users.php",
+    "type": "php",
+    "lines": 1,
+    "description": "paginate users"
+  },
+  {
+    "number": 32,
+    "file": "sql/32_offset_pagination_sql.sql",
+    "type": "sql",
+    "lines": 1,
+    "description": "offset pagination sql"
+  },
+  {
+    "number": 33,
+    "file": "php/33_simple_paginate_users.php",
+    "type": "php",
+    "lines": 1,
+    "description": "simple paginate users"
+  },
+  {
+    "number": 34,
+    "file": "php/34_cursor_paginate_users.php",
+    "type": "php",
+    "lines": 1,
+    "description": "cursor paginate users"
+  },
+  {
+    "number": 35,
+    "file": "sql/35_select_user_by_email_sql.sql",
+    "type": "sql",
+    "lines": 1,
+    "description": "select user by email sql"
+  },
+  {
+    "number": 36,
+    "file": "php/36_email_index_migration.php",
+    "type": "php",
+    "lines": 1,
+    "description": "email index migration"
+  },
+  {
+    "number": 37,
+    "file": "php/37_composite_index_migration.php",
+    "type": "php",
+    "lines": 1,
+    "description": "composite index migration"
+  },
+  {
+    "number": 38,
+    "file": "sql/38_select_paid_orders_sql.sql",
+    "type": "sql",
+    "lines": 2,
+    "description": "select paid orders sql"
+  },
+  {
+    "number": 39,
+    "file": "sql/39_where_user_id_sql_fragment.sql",
+    "type": "sql",
+    "lines": 1,
+    "description": "where user id sql fragment"
+  },
+  {
+    "number": 40,
+    "file": "sql/40_where_status_sql_fragment.sql",
+    "type": "sql",
+    "lines": 1,
+    "description": "where status sql fragment"
+  },
+  {
+    "number": 41,
+    "file": "php/41_cursor_paginate_indexed_column.php",
+    "type": "php",
+    "lines": 1,
+    "description": "cursor paginate indexed column"
+  },
+  {
+    "number": 42,
+    "file": "sql/42_explain_user_email_query.sql",
+    "type": "sql",
+    "lines": 1,
+    "description": "explain user email query"
+  },
+  {
+    "number": 43,
+    "file": "shell/43_install_mongodb_package.sh",
+    "type": "shell",
+    "lines": 1,
+    "description": "install mongodb package"
+  },
+  {
+    "number": 44,
+    "file": "config/44_mongodb_database_config.env.txt",
+    "type": "env",
+    "lines": 10,
+    "description": "mongodb database config"
+  },
+  {
+    "number": 45,
+    "file": "config/45_mongodb_env.env.txt",
+    "type": "env",
+    "lines": 4,
+    "description": "mongodb env"
+  },
+  {
+    "number": 46,
+    "file": "text/46_module_migration_path_template.txt",
+    "type": "txt",
+    "lines": 1,
+    "description": "module migration path template"
+  },
+  {
+    "number": 47,
+    "file": "text/47_telemetry_mongodb_migration_path.txt",
+    "type": "txt",
+    "lines": 1,
+    "description": "telemetry mongodb migration path"
+  },
+  {
+    "number": 48,
+    "file": "php/48_migration_service_provider.php",
+    "type": "php",
+    "lines": 42,
+    "description": "migration service provider"
+  },
+  {
+    "number": 49,
+    "file": "shell/49_make_migrate_connection_command.sh",
+    "type": "shell",
+    "lines": 1,
+    "description": "make migrate connection command"
+  },
+  {
+    "number": 50,
+    "file": "php/50_migrate_connection_command.php",
+    "type": "php",
+    "lines": 35,
+    "description": "migrate connection command"
+  },
+  {
+    "number": 51,
+    "file": "shell/51_migration_commands.sh",
+    "type": "shell",
+    "lines": 2,
+    "description": "migration commands"
+  },
+  {
+    "number": 52,
+    "file": "php/52_audit_log_mongodb_model.php",
+    "type": "php",
+    "lines": 16,
+    "description": "audit log mongodb model"
+  },
+  {
+    "number": 53,
+    "file": "php/53_query_mongodb_audit_logs.php",
+    "type": "php",
+    "lines": 5,
+    "description": "query mongodb audit logs"
+  },
+  {
+    "number": 54,
+    "file": "shell/54_install_aws_sdk.sh",
+    "type": "shell",
+    "lines": 1,
+    "description": "install aws sdk"
+  },
+  {
+    "number": 55,
+    "file": "config/55_dynamodb_config.env.txt",
+    "type": "env",
+    "lines": 8,
+    "description": "dynamodb config"
+  },
+  {
+    "number": 56,
+    "file": "config/56_aws_env.env.txt",
+    "type": "env",
+    "lines": 3,
+    "description": "aws env"
+  },
+  {
+    "number": 57,
+    "file": "php/57_dynamodb_client_factory.php",
+    "type": "php",
+    "lines": 15,
+    "description": "dynamodb client factory"
+  },
+  {
+    "number": 58,
+    "file": "php/58_dynamodb_put_item.php",
+    "type": "php",
+    "lines": 11,
+    "description": "dynamodb put item"
+  },
+  {
+    "number": 59,
+    "file": "php/59_dynamodb_get_item.php",
+    "type": "php",
+    "lines": 9,
+    "description": "dynamodb get item"
+  },
+  {
+    "number": 60,
+    "file": "php/60_dynamodb_create_table.php",
+    "type": "php",
+    "lines": 13,
+    "description": "dynamodb create table"
+  }
+]

@@ -1,0 +1,1 @@
+UserModel::paginate(15);

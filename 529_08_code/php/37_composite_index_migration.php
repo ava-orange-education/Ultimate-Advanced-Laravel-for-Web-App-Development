@@ -1,0 +1,1 @@
+$table->index(['user_id', 'status']);

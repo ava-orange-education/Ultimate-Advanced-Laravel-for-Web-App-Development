@@ -1,0 +1,41 @@
+{
+    "logs": [
+        {
+            "level": "info",
+            "message": "Order processed successfully",
+            "context": {
+                "request_id": "req-demo-001",
+                "order_id": 1001,
+                "user_id": 42,
+                "amount": 149.95
+            }
+        },
+        {
+            "level": "error",
+            "message": "Subscription validation failed",
+            "context": {
+                "request_id": "req-demo-001",
+                "user_id": 42
+            }
+        }
+    ],
+    "api_error_response": {
+        "status": 403,
+        "body": {
+            "success": false,
+            "message": "Your subscription has expired."
+        }
+    },
+    "cache_lock_result": {
+        "featured_products": [
+            "Laptop Stand",
+            "Mechanical Keyboard"
+        ],
+        "generated_at": "2026-06-01T12:00:00Z"
+    },
+    "health_check": {
+        "status": "healthy",
+        "database": "connected",
+        "cache": "available"
+    }
+}

@@ -1,0 +1,3 @@
+<?php
+
+$assistant->stream($input)

@@ -1,0 +1,666 @@
+{
+  "chapter": 16,
+  "source_document": "Chapter 16 - Unit and Feature Testing (Pest & PHPUnit).docx",
+  "total_extracted_blocks": 108,
+  "note": "No txt directory or txt snippet files are included.",
+  "files": [
+    {
+      "id": 1,
+      "file": "config/01_testing_directory_structure.md",
+      "source_table_index": 0,
+      "type": "config"
+    },
+    {
+      "id": 2,
+      "file": "config/02_env_testing_runtime_drivers.env",
+      "source_table_index": 1,
+      "type": "config"
+    },
+    {
+      "id": 3,
+      "file": "config/03_sqlite_in_memory_testing_database.env",
+      "source_table_index": 2,
+      "type": "config"
+    },
+    {
+      "id": 4,
+      "file": "xml/04_phpunit_testing_environment_variables.xml",
+      "source_table_index": 3,
+      "type": "xml"
+    },
+    {
+      "id": 5,
+      "file": "shell/05_run_phpunit.sh",
+      "source_table_index": 4,
+      "type": "shell"
+    },
+    {
+      "id": 6,
+      "file": "shell/06_run_artisan_test.sh",
+      "source_table_index": 5,
+      "type": "shell"
+    },
+    {
+      "id": 7,
+      "file": "shell/07_run_feature_tests_stop_on_failure.sh",
+      "source_table_index": 6,
+      "type": "shell"
+    },
+    {
+      "id": 8,
+      "file": "shell/08_run_specific_feature_test_file.sh",
+      "source_table_index": 7,
+      "type": "shell"
+    },
+    {
+      "id": 9,
+      "file": "shell/09_install_pest_and_laravel_plugin.sh",
+      "source_table_index": 8,
+      "type": "shell"
+    },
+    {
+      "id": 10,
+      "file": "shell/10_run_pest.sh",
+      "source_table_index": 9,
+      "type": "shell"
+    },
+    {
+      "id": 11,
+      "file": "shell/11_run_artisan_test_for_pest.sh",
+      "source_table_index": 10,
+      "type": "shell"
+    },
+    {
+      "id": 12,
+      "file": "shell/12_run_parallel_tests.sh",
+      "source_table_index": 11,
+      "type": "shell"
+    },
+    {
+      "id": 13,
+      "file": "shell/13_run_parallel_tests_three_processes.sh",
+      "source_table_index": 12,
+      "type": "shell"
+    },
+    {
+      "id": 14,
+      "file": "shell/14_recreate_parallel_testing_databases.sh",
+      "source_table_index": 13,
+      "type": "shell"
+    },
+    {
+      "id": 15,
+      "file": "php/15_parallel_testing_hooks_app_service_provider.php",
+      "source_table_index": 14,
+      "type": "php"
+    },
+    {
+      "id": 16,
+      "file": "php/16_parallel_testing_token.php",
+      "source_table_index": 15,
+      "type": "php"
+    },
+    {
+      "id": 17,
+      "file": "php/17_parallel_testing_storage_path.php",
+      "source_table_index": 16,
+      "type": "php"
+    },
+    {
+      "id": 18,
+      "file": "shell/18_make_task_service_test.sh",
+      "source_table_index": 17,
+      "type": "shell"
+    },
+    {
+      "id": 19,
+      "file": "shell/19_make_tax_calculator_unit_test.sh",
+      "source_table_index": 18,
+      "type": "shell"
+    },
+    {
+      "id": 20,
+      "file": "php/20_generated_phpunit_unit_test.php",
+      "source_table_index": 19,
+      "type": "php"
+    },
+    {
+      "id": 21,
+      "file": "php/21_tax_calculator_service.php",
+      "source_table_index": 20,
+      "type": "php"
+    },
+    {
+      "id": 22,
+      "file": "php/22_phpunit_tax_calculator_test.php",
+      "source_table_index": 21,
+      "type": "php"
+    },
+    {
+      "id": 23,
+      "file": "php/23_phpunit_method_not_discovered_without_test_prefix.php",
+      "source_table_index": 22,
+      "type": "php"
+    },
+    {
+      "id": 24,
+      "file": "shell/24_make_tax_calculator_unit_test_for_pest.sh",
+      "source_table_index": 23,
+      "type": "shell"
+    },
+    {
+      "id": 25,
+      "file": "php/25_pest_testcase_binding.php",
+      "source_table_index": 24,
+      "type": "php"
+    },
+    {
+      "id": 26,
+      "file": "php/26_pest_tax_calculator_test.php",
+      "source_table_index": 25,
+      "type": "php"
+    },
+    {
+      "id": 27,
+      "file": "php/27_phpunit_basic_assertions.php",
+      "source_table_index": 26,
+      "type": "php"
+    },
+    {
+      "id": 28,
+      "file": "php/28_pest_basic_expectations.php",
+      "source_table_index": 27,
+      "type": "php"
+    },
+    {
+      "id": 29,
+      "file": "php/29_tax_calculator_service_with_exception.php",
+      "source_table_index": 28,
+      "type": "php"
+    },
+    {
+      "id": 30,
+      "file": "php/30_phpunit_exception_test.php",
+      "source_table_index": 29,
+      "type": "php"
+    },
+    {
+      "id": 31,
+      "file": "php/31_pest_exception_test.php",
+      "source_table_index": 30,
+      "type": "php"
+    },
+    {
+      "id": 32,
+      "file": "shell/32_run_all_tests.sh",
+      "source_table_index": 31,
+      "type": "shell"
+    },
+    {
+      "id": 33,
+      "file": "shell/33_run_tax_calculator_test_file.sh",
+      "source_table_index": 32,
+      "type": "shell"
+    },
+    {
+      "id": 34,
+      "file": "shell/34_make_task_feature_test.sh",
+      "source_table_index": 33,
+      "type": "shell"
+    },
+    {
+      "id": 35,
+      "file": "php/35_tasks_json_route.php",
+      "source_table_index": 34,
+      "type": "php"
+    },
+    {
+      "id": 36,
+      "file": "php/36_phpunit_tasks_endpoint_status_test.php",
+      "source_table_index": 35,
+      "type": "php"
+    },
+    {
+      "id": 37,
+      "file": "php/37_http_testing_helpers_table.php",
+      "source_table_index": 36,
+      "type": "php"
+    },
+    {
+      "id": 38,
+      "file": "php/38_post_task_request_example.php",
+      "source_table_index": 37,
+      "type": "php"
+    },
+    {
+      "id": 39,
+      "file": "php/39_tasks_json_response_route.php",
+      "source_table_index": 38,
+      "type": "php"
+    },
+    {
+      "id": 40,
+      "file": "php/40_phpunit_tasks_json_response_test.php",
+      "source_table_index": 39,
+      "type": "php"
+    },
+    {
+      "id": 41,
+      "file": "php/41_pest_tasks_json_response_test.php",
+      "source_table_index": 40,
+      "type": "php"
+    },
+    {
+      "id": 42,
+      "file": "php/42_tasks_validation_route.php",
+      "source_table_index": 41,
+      "type": "php"
+    },
+    {
+      "id": 43,
+      "file": "php/43_phpunit_task_title_required_json_test.php",
+      "source_table_index": 42,
+      "type": "php"
+    },
+    {
+      "id": 44,
+      "file": "php/44_pest_task_title_required_json_test.php",
+      "source_table_index": 43,
+      "type": "php"
+    },
+    {
+      "id": 45,
+      "file": "php/45_phpunit_task_title_form_validation_test.php",
+      "source_table_index": 44,
+      "type": "php"
+    },
+    {
+      "id": 46,
+      "file": "php/46_pest_task_title_form_validation_test.php",
+      "source_table_index": 45,
+      "type": "php"
+    },
+    {
+      "id": 47,
+      "file": "php/47_task_creation_route.php",
+      "source_table_index": 46,
+      "type": "php"
+    },
+    {
+      "id": 48,
+      "file": "php/48_phpunit_task_stored_database_test.php",
+      "source_table_index": 47,
+      "type": "php"
+    },
+    {
+      "id": 49,
+      "file": "php/49_pest_task_stored_database_test.php",
+      "source_table_index": 48,
+      "type": "php"
+    },
+    {
+      "id": 50,
+      "file": "php/50_database_missing_and_soft_deleted_assertions.php",
+      "source_table_index": 49,
+      "type": "php"
+    },
+    {
+      "id": 51,
+      "file": "php/51_dashboard_auth_route.php",
+      "source_table_index": 50,
+      "type": "php"
+    },
+    {
+      "id": 52,
+      "file": "php/52_phpunit_dashboard_authentication_tests.php",
+      "source_table_index": 51,
+      "type": "php"
+    },
+    {
+      "id": 53,
+      "file": "php/53_pest_dashboard_authentication_tests.php",
+      "source_table_index": 52,
+      "type": "php"
+    },
+    {
+      "id": 54,
+      "file": "php/54_acting_as_admin_guard.php",
+      "source_table_index": 53,
+      "type": "php"
+    },
+    {
+      "id": 55,
+      "file": "php/55_task_redirect_routes.php",
+      "source_table_index": 54,
+      "type": "php"
+    },
+    {
+      "id": 56,
+      "file": "php/56_phpunit_task_redirect_test.php",
+      "source_table_index": 55,
+      "type": "php"
+    },
+    {
+      "id": 57,
+      "file": "php/57_pest_task_redirect_test.php",
+      "source_table_index": 56,
+      "type": "php"
+    },
+    {
+      "id": 58,
+      "file": "php/58_phpunit_follow_redirect_test.php",
+      "source_table_index": 57,
+      "type": "php"
+    },
+    {
+      "id": 59,
+      "file": "php/59_pest_follow_redirect_test.php",
+      "source_table_index": 58,
+      "type": "php"
+    },
+    {
+      "id": 60,
+      "file": "php/60_phpunit_refresh_database_trait.php",
+      "source_table_index": 59,
+      "type": "php"
+    },
+    {
+      "id": 61,
+      "file": "php/61_pest_refresh_database_trait.php",
+      "source_table_index": 60,
+      "type": "php"
+    },
+    {
+      "id": 62,
+      "file": "shell/62_make_task_model_migration_factory.sh",
+      "source_table_index": 61,
+      "type": "shell"
+    },
+    {
+      "id": 63,
+      "file": "php/63_task_factory_default_definition.php",
+      "source_table_index": 62,
+      "type": "php"
+    },
+    {
+      "id": 64,
+      "file": "php/64_factory_related_user_assignment.php",
+      "source_table_index": 63,
+      "type": "php"
+    },
+    {
+      "id": 65,
+      "file": "php/65_factory_create_task.php",
+      "source_table_index": 64,
+      "type": "php"
+    },
+    {
+      "id": 66,
+      "file": "php/66_factory_create_and_store_task.php",
+      "source_table_index": 65,
+      "type": "php"
+    },
+    {
+      "id": 67,
+      "file": "php/67_factory_create_with_overrides.php",
+      "source_table_index": 66,
+      "type": "php"
+    },
+    {
+      "id": 68,
+      "file": "php/68_factory_make_without_persisting.php",
+      "source_table_index": 67,
+      "type": "php"
+    },
+    {
+      "id": 69,
+      "file": "php/69_factory_raw_attributes.php",
+      "source_table_index": 68,
+      "type": "php"
+    },
+    {
+      "id": 70,
+      "file": "php/70_factory_create_five_tasks.php",
+      "source_table_index": 69,
+      "type": "php"
+    },
+    {
+      "id": 71,
+      "file": "php/71_factory_create_collection.php",
+      "source_table_index": 70,
+      "type": "php"
+    },
+    {
+      "id": 72,
+      "file": "php/72_factory_make_collection.php",
+      "source_table_index": 71,
+      "type": "php"
+    },
+    {
+      "id": 73,
+      "file": "php/73_task_factory_completed_state.php",
+      "source_table_index": 72,
+      "type": "php"
+    },
+    {
+      "id": 74,
+      "file": "php/74_factory_completed_state_usage.php",
+      "source_table_index": 73,
+      "type": "php"
+    },
+    {
+      "id": 75,
+      "file": "php/75_factory_completed_state_chain.php",
+      "source_table_index": 74,
+      "type": "php"
+    },
+    {
+      "id": 76,
+      "file": "php/76_assert_database_count_tasks.php",
+      "source_table_index": 75,
+      "type": "php"
+    },
+    {
+      "id": 77,
+      "file": "php/77_assert_database_empty_tasks.php",
+      "source_table_index": 76,
+      "type": "php"
+    },
+    {
+      "id": 78,
+      "file": "php/78_task_seeder.php",
+      "source_table_index": 77,
+      "type": "php"
+    },
+    {
+      "id": 79,
+      "file": "php/79_phpunit_seed_task_seeder.php",
+      "source_table_index": 78,
+      "type": "php"
+    },
+    {
+      "id": 80,
+      "file": "php/80_pest_seed_task_seeder.php",
+      "source_table_index": 79,
+      "type": "php"
+    },
+    {
+      "id": 81,
+      "file": "php/81_seed_multiple_seeders.php",
+      "source_table_index": 80,
+      "type": "php"
+    },
+    {
+      "id": 82,
+      "file": "php/82_enable_default_database_seeder.php",
+      "source_table_index": 81,
+      "type": "php"
+    },
+    {
+      "id": 83,
+      "file": "php/83_define_specific_test_seeder.php",
+      "source_table_index": 82,
+      "type": "php"
+    },
+    {
+      "id": 84,
+      "file": "shell/84_install_laravel_dusk.sh",
+      "source_table_index": 83,
+      "type": "shell"
+    },
+    {
+      "id": 85,
+      "file": "shell/85_install_dusk_scaffolding.sh",
+      "source_table_index": 84,
+      "type": "shell"
+    },
+    {
+      "id": 86,
+      "file": "shell/86_run_dusk_tests.sh",
+      "source_table_index": 85,
+      "type": "shell"
+    },
+    {
+      "id": 87,
+      "file": "shell/87_run_specific_dusk_test.sh",
+      "source_table_index": 86,
+      "type": "shell"
+    },
+    {
+      "id": 88,
+      "file": "shell/88_make_dusk_login_test.sh",
+      "source_table_index": 87,
+      "type": "shell"
+    },
+    {
+      "id": 89,
+      "file": "php/89_generated_dusk_login_test.php",
+      "source_table_index": 88,
+      "type": "php"
+    },
+    {
+      "id": 90,
+      "file": "php/90_dusk_user_login_test.php",
+      "source_table_index": 89,
+      "type": "php"
+    },
+    {
+      "id": 91,
+      "file": "php/91_dusk_type_email_field.php",
+      "source_table_index": 90,
+      "type": "php"
+    },
+    {
+      "id": 92,
+      "file": "html/92_dusk_login_button_html.html",
+      "source_table_index": 91,
+      "type": "html"
+    },
+    {
+      "id": 93,
+      "file": "php/93_dusk_click_login_button.php",
+      "source_table_index": 92,
+      "type": "php"
+    },
+    {
+      "id": 94,
+      "file": "php/94_dusk_wait_for_text.php",
+      "source_table_index": 93,
+      "type": "php"
+    },
+    {
+      "id": 95,
+      "file": "php/95_dusk_wait_for_dashboard_selector.php",
+      "source_table_index": 94,
+      "type": "php"
+    },
+    {
+      "id": 96,
+      "file": "php/96_dusk_login_as_user.php",
+      "source_table_index": 95,
+      "type": "php"
+    },
+    {
+      "id": 97,
+      "file": "php/97_dusk_screenshot_dashboard_page.php",
+      "source_table_index": 96,
+      "type": "php"
+    },
+    {
+      "id": 98,
+      "file": "config/98_dusk_screenshot_directory.md",
+      "source_table_index": 97,
+      "type": "config"
+    },
+    {
+      "id": 99,
+      "file": "php/99_dusk_pause_execution.php",
+      "source_table_index": 98,
+      "type": "php"
+    },
+    {
+      "id": 100,
+      "file": "shell/100_install_phpstan_larastan.sh",
+      "source_table_index": 99,
+      "type": "shell"
+    },
+    {
+      "id": 101,
+      "file": "yaml/101_phpstan_larastan_configuration.neon",
+      "source_table_index": 100,
+      "type": "yaml"
+    },
+    {
+      "id": 102,
+      "file": "shell/102_run_phpstan_analyse.sh",
+      "source_table_index": 101,
+      "type": "shell"
+    },
+    {
+      "id": 103,
+      "file": "config/103_composer_analyse_script.json",
+      "source_table_index": 102,
+      "type": "config"
+    },
+    {
+      "id": 104,
+      "file": "shell/104_run_composer_analyse.sh",
+      "source_table_index": 103,
+      "type": "shell"
+    },
+    {
+      "id": 105,
+      "file": "php/105_phpstan_detects_unreliable_return_type.php",
+      "source_table_index": 104,
+      "type": "php"
+    },
+    {
+      "id": 106,
+      "file": "php/106_typed_find_user_method.php",
+      "source_table_index": 105,
+      "type": "php"
+    },
+    {
+      "id": 107,
+      "file": "php/107_larastan_collection_type_annotation.php",
+      "source_table_index": 106,
+      "type": "php"
+    },
+    {
+      "id": 108,
+      "file": "shell/108_generate_phpstan_baseline.sh",
+      "source_table_index": 107,
+      "type": "shell"
+    },
+    {
+      "id": "demo",
+      "file": "chapter_16_executable_demo.php",
+      "type": "standalone_php"
+    },
+    {
+      "id": "demo_output",
+      "file": "output/chapter_16_executable_demo_output.txt",
+      "type": "output"
+    }
+  ]
+}

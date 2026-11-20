@@ -1,0 +1,3 @@
+<?php
+
+seed(TaskSeeder::class);

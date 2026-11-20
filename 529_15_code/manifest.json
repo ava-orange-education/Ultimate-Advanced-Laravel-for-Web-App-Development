@@ -1,0 +1,495 @@
+{
+  "source_document": "529_15_PD_Reviewed_SR.docx",
+  "chapter": 15,
+  "snippet_count": 61,
+  "snippets": [
+    {
+      "index": 1,
+      "source_table": 0,
+      "path": "prompt/01_generic_laravel_invoice_endpoint_prompt.md",
+      "type": "prompt",
+      "extension": "md",
+      "title": "generic_laravel_invoice_endpoint_prompt"
+    },
+    {
+      "index": 2,
+      "source_table": 1,
+      "path": "prompt/02_detailed_laravel_invoice_endpoint_prompt.md",
+      "type": "prompt",
+      "extension": "md",
+      "title": "detailed_laravel_invoice_endpoint_prompt"
+    },
+    {
+      "index": 3,
+      "source_table": 2,
+      "path": "prompt/03_common_ai_laravel_task_prompts.md",
+      "type": "prompt",
+      "extension": "md",
+      "title": "common_ai_laravel_task_prompts"
+    },
+    {
+      "index": 4,
+      "source_table": 5,
+      "path": "shell/04_install_laravel_boost.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "install_laravel_boost"
+    },
+    {
+      "index": 5,
+      "source_table": 6,
+      "path": "shell/05_run_boost_install.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "run_boost_install"
+    },
+    {
+      "index": 6,
+      "source_table": 7,
+      "path": "markdown/06_boost_generated_files.md",
+      "type": "markdown",
+      "extension": "md",
+      "title": "boost_generated_files"
+    },
+    {
+      "index": 7,
+      "source_table": 8,
+      "path": "shell/07_run_boost_mcp_server.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "run_boost_mcp_server"
+    },
+    {
+      "index": 8,
+      "source_table": 9,
+      "path": "json/08_boost_mcp_json_config.json",
+      "type": "json",
+      "extension": "json",
+      "title": "boost_mcp_json_config"
+    },
+    {
+      "index": 9,
+      "source_table": 10,
+      "path": "prompt/09_generic_invoice_dashboard_prompt.md",
+      "type": "prompt",
+      "extension": "md",
+      "title": "generic_invoice_dashboard_prompt"
+    },
+    {
+      "index": 10,
+      "source_table": 11,
+      "path": "prompt/10_boost_invoice_dashboard_prompt.md",
+      "type": "prompt",
+      "extension": "md",
+      "title": "boost_invoice_dashboard_prompt"
+    },
+    {
+      "index": 11,
+      "source_table": 13,
+      "path": "prompt/11_boost_search_docs_prompt.md",
+      "type": "prompt",
+      "extension": "md",
+      "title": "boost_search_docs_prompt"
+    },
+    {
+      "index": 12,
+      "source_table": 14,
+      "path": "markdown/12_project_architecture_guideline_path.md",
+      "type": "markdown",
+      "extension": "md",
+      "title": "project_architecture_guideline_path"
+    },
+    {
+      "index": 13,
+      "source_table": 15,
+      "path": "markdown/13_project_architecture_guidelines.md",
+      "type": "markdown",
+      "extension": "md",
+      "title": "project_architecture_guidelines"
+    },
+    {
+      "index": 14,
+      "source_table": 16,
+      "path": "shell/14_rerun_boost_install.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "rerun_boost_install"
+    },
+    {
+      "index": 15,
+      "source_table": 17,
+      "path": "markdown/15_override_inertia_react_forms_guideline_path.md",
+      "type": "markdown",
+      "extension": "md",
+      "title": "override_inertia_react_forms_guideline_path"
+    },
+    {
+      "index": 16,
+      "source_table": 19,
+      "path": "markdown/16_invoice_workflows_skill_path.md",
+      "type": "markdown",
+      "extension": "md",
+      "title": "invoice_workflows_skill_path"
+    },
+    {
+      "index": 17,
+      "source_table": 20,
+      "path": "markdown/17_invoice_workflows_skill.md",
+      "type": "markdown",
+      "extension": "md",
+      "title": "invoice_workflows_skill"
+    },
+    {
+      "index": 18,
+      "source_table": 21,
+      "path": "prompt/18_invoice_workflows_prompt.md",
+      "type": "prompt",
+      "extension": "md",
+      "title": "invoice_workflows_prompt"
+    },
+    {
+      "index": 19,
+      "source_table": 22,
+      "path": "shell/19_boost_update.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "boost_update"
+    },
+    {
+      "index": 20,
+      "source_table": 23,
+      "path": "shell/20_boost_update_discover.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "boost_update_discover"
+    },
+    {
+      "index": 21,
+      "source_table": 24,
+      "path": "json/21_composer_post_update_boost_script.json",
+      "type": "json",
+      "extension": "json",
+      "title": "composer_post_update_boost_script"
+    },
+    {
+      "index": 22,
+      "source_table": 25,
+      "path": "prompt/22_ddd_cqrs_invoice_listing_prompt.md",
+      "type": "prompt",
+      "extension": "md",
+      "title": "ddd_cqrs_invoice_listing_prompt"
+    },
+    {
+      "index": 23,
+      "source_table": 26,
+      "path": "prompt/23_invoice_listing_read_side_flow.md",
+      "type": "prompt",
+      "extension": "md",
+      "title": "invoice_listing_read_side_flow"
+    },
+    {
+      "index": 24,
+      "source_table": 27,
+      "path": "shell/24_install_laravel_ai_sdk.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "install_laravel_ai_sdk"
+    },
+    {
+      "index": 25,
+      "source_table": 28,
+      "path": "shell/25_publish_ai_sdk_config.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "publish_ai_sdk_config"
+    },
+    {
+      "index": 26,
+      "source_table": 29,
+      "path": "shell/26_run_migrations.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "run_migrations"
+    },
+    {
+      "index": 27,
+      "source_table": 30,
+      "path": "config/27_anthropic_api_key_env.env",
+      "type": "config",
+      "extension": "env",
+      "title": "anthropic_api_key_env"
+    },
+    {
+      "index": 28,
+      "source_table": 31,
+      "path": "config/28_ai_provider_api_keys_env.env",
+      "type": "config",
+      "extension": "env",
+      "title": "ai_provider_api_keys_env"
+    },
+    {
+      "index": 29,
+      "source_table": 32,
+      "path": "php/29_invoice_analysis_agent_prompt.php",
+      "type": "php",
+      "extension": "php",
+      "title": "invoice_analysis_agent_prompt"
+    },
+    {
+      "index": 30,
+      "source_table": 33,
+      "path": "prompt/30_personal_assistant_flow.md",
+      "type": "prompt",
+      "extension": "md",
+      "title": "personal_assistant_flow"
+    },
+    {
+      "index": 31,
+      "source_table": 34,
+      "path": "shell/31_make_personal_assistant_agent.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "make_personal_assistant_agent"
+    },
+    {
+      "index": 32,
+      "source_table": 35,
+      "path": "prompt/32_agent_contracts.md",
+      "type": "prompt",
+      "extension": "md",
+      "title": "agent_contracts"
+    },
+    {
+      "index": 33,
+      "source_table": 36,
+      "path": "php/33_personal_assistant_agent.php",
+      "type": "php",
+      "extension": "php",
+      "title": "personal_assistant_agent"
+    },
+    {
+      "index": 34,
+      "source_table": 37,
+      "path": "shell/34_make_get_local_time_tool.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "make_get_local_time_tool"
+    },
+    {
+      "index": 35,
+      "source_table": 38,
+      "path": "php/35_get_local_time_tool.php",
+      "type": "php",
+      "extension": "php",
+      "title": "get_local_time_tool"
+    },
+    {
+      "index": 36,
+      "source_table": 39,
+      "path": "shell/36_make_ai_assistant_command.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "make_ai_assistant_command"
+    },
+    {
+      "index": 37,
+      "source_table": 40,
+      "path": "php/37_ai_assistant_command.php",
+      "type": "php",
+      "extension": "php",
+      "title": "ai_assistant_command"
+    },
+    {
+      "index": 38,
+      "source_table": 41,
+      "path": "php/38_stream_assistant_input.php",
+      "type": "php",
+      "extension": "php",
+      "title": "stream_assistant_input"
+    },
+    {
+      "index": 39,
+      "source_table": 42,
+      "path": "shell/39_run_ai_assistant_command.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "run_ai_assistant_command"
+    },
+    {
+      "index": 40,
+      "source_table": 43,
+      "path": "prompt/40_user_scoped_conversation.md",
+      "type": "prompt",
+      "extension": "md",
+      "title": "user_scoped_conversation"
+    },
+    {
+      "index": 41,
+      "source_table": 44,
+      "path": "prompt/41_continue_user_scoped_conversation.md",
+      "type": "prompt",
+      "extension": "md",
+      "title": "continue_user_scoped_conversation"
+    },
+    {
+      "index": 42,
+      "source_table": 45,
+      "path": "shell/42_install_laravel_mcp.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "install_laravel_mcp"
+    },
+    {
+      "index": 43,
+      "source_table": 46,
+      "path": "shell/43_publish_ai_routes.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "publish_ai_routes"
+    },
+    {
+      "index": 44,
+      "source_table": 47,
+      "path": "shell/44_make_assistant_mcp_server.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "make_assistant_mcp_server"
+    },
+    {
+      "index": 45,
+      "source_table": 48,
+      "path": "php/45_assistant_mcp_server.php",
+      "type": "php",
+      "extension": "php",
+      "title": "assistant_mcp_server"
+    },
+    {
+      "index": 46,
+      "source_table": 49,
+      "path": "php/46_register_mcp_web_server.php",
+      "type": "php",
+      "extension": "php",
+      "title": "register_mcp_web_server"
+    },
+    {
+      "index": 47,
+      "source_table": 50,
+      "path": "php/47_register_mcp_local_server.php",
+      "type": "php",
+      "extension": "php",
+      "title": "register_mcp_local_server"
+    },
+    {
+      "index": 48,
+      "source_table": 51,
+      "path": "shell/48_make_application_status_tool.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "make_application_status_tool"
+    },
+    {
+      "index": 49,
+      "source_table": 52,
+      "path": "shell/49_make_application_status_tool_repeat.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "make_application_status_tool_repeat"
+    },
+    {
+      "index": 50,
+      "source_table": 53,
+      "path": "php/50_register_application_status_tool.php",
+      "type": "php",
+      "extension": "php",
+      "title": "register_application_status_tool"
+    },
+    {
+      "index": 51,
+      "source_table": 54,
+      "path": "php/51_get_task_summary_tool.php",
+      "type": "php",
+      "extension": "php",
+      "title": "get_task_summary_tool"
+    },
+    {
+      "index": 52,
+      "source_table": 55,
+      "path": "shell/52_make_assistant_guidelines_resource.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "make_assistant_guidelines_resource"
+    },
+    {
+      "index": 53,
+      "source_table": 56,
+      "path": "php/53_assistant_guidelines_resource.php",
+      "type": "php",
+      "extension": "php",
+      "title": "assistant_guidelines_resource"
+    },
+    {
+      "index": 54,
+      "source_table": 57,
+      "path": "php/54_register_assistant_guidelines_resource.php",
+      "type": "php",
+      "extension": "php",
+      "title": "register_assistant_guidelines_resource"
+    },
+    {
+      "index": 55,
+      "source_table": 58,
+      "path": "shell/55_make_analyze_task_prompt.sh",
+      "type": "shell",
+      "extension": "sh",
+      "title": "make_analyze_task_prompt"
+    },
+    {
+      "index": 56,
+      "source_table": 59,
+      "path": "php/56_analyze_task_prompt.php",
+      "type": "php",
+      "extension": "php",
+      "title": "analyze_task_prompt"
+    },
+    {
+      "index": 57,
+      "source_table": 60,
+      "path": "php/57_register_analyze_task_prompt.php",
+      "type": "php",
+      "extension": "php",
+      "title": "register_analyze_task_prompt"
+    },
+    {
+      "index": 58,
+      "source_table": 61,
+      "path": "php/58_mcp_web_server_auth_middleware.php",
+      "type": "php",
+      "extension": "php",
+      "title": "mcp_web_server_auth_middleware"
+    },
+    {
+      "index": 59,
+      "source_table": 62,
+      "path": "php/59_mcp_tool_authorization_example.php",
+      "type": "php",
+      "extension": "php",
+      "title": "mcp_tool_authorization_example"
+    },
+    {
+      "index": 60,
+      "source_table": 63,
+      "path": "prompt/60_safe_mcp_tool_description.md",
+      "type": "prompt",
+      "extension": "md",
+      "title": "safe_mcp_tool_description"
+    },
+    {
+      "index": 61,
+      "source_table": 64,
+      "path": "prompt/61_risky_mcp_tool_description.md",
+      "type": "prompt",
+      "extension": "md",
+      "title": "risky_mcp_tool_description"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+UserModel::simplePaginate(15);

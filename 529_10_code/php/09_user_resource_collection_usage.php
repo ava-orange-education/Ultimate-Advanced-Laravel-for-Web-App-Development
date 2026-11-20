@@ -1,0 +1,1 @@
+return UserResource::collection($result);

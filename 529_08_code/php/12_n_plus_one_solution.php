@@ -1,0 +1,1 @@
+$users = UserModel::with('orders')->get();

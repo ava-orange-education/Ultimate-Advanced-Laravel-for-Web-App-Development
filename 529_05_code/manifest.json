@@ -1,0 +1,224 @@
+{
+  "source_document": "529_05_PD_Reviewed_SR.docx",
+  "chapter": 5,
+  "code_example_blocks": 29,
+  "files": [
+    {
+      "id": 1,
+      "file": "php/01_controller_status_check.php",
+      "type": "php",
+      "lines": 6,
+      "preview": "if ($order->status !== 'paid') {"
+    },
+    {
+      "id": 2,
+      "file": "php/02_order_domain_model.php",
+      "type": "php",
+      "lines": 22,
+      "preview": "final class Order"
+    },
+    {
+      "id": 3,
+      "file": "php/03_order_status_value_object.php",
+      "type": "php",
+      "lines": 24,
+      "preview": "final class OrderStatus"
+    },
+    {
+      "id": 4,
+      "file": "php/04_user_status_magic_number.php",
+      "type": "php",
+      "lines": 3,
+      "preview": "if ($user->status === 1) {"
+    },
+    {
+      "id": 5,
+      "file": "php/05_account_is_approved_check.php",
+      "type": "php",
+      "lines": 3,
+      "preview": "if ($account->isApproved()) {"
+    },
+    {
+      "id": 6,
+      "file": "php/06_account_domain_model.php",
+      "type": "php",
+      "lines": 16,
+      "preview": "final class Account"
+    },
+    {
+      "id": 7,
+      "file": "php/07_identity_user_model.php",
+      "type": "php",
+      "lines": 19,
+      "preview": "final class IdentityUser"
+    },
+    {
+      "id": 8,
+      "file": "php/08_billing_user_model.php",
+      "type": "php",
+      "lines": 22,
+      "preview": "final class BillingUser"
+    },
+    {
+      "id": 9,
+      "file": "php/09_order_integrity_model.php",
+      "type": "php",
+      "lines": 27,
+      "preview": "final class Order"
+    },
+    {
+      "id": 10,
+      "file": "php/10_order_shipped_domain_event.php",
+      "type": "php",
+      "lines": 24,
+      "preview": "final class OrderShipped"
+    },
+    {
+      "id": 11,
+      "file": "php/11_order_repository_interface.php",
+      "type": "php",
+      "lines": 5,
+      "preview": "interface OrderRepository"
+    },
+    {
+      "id": 12,
+      "file": "php/12_eloquent_order_repository.php",
+      "type": "php",
+      "lines": 12,
+      "preview": "final class EloquentOrderRepository implements OrderRepository"
+    },
+    {
+      "id": 13,
+      "file": "php/13_ship_order_use_case.php",
+      "type": "php",
+      "lines": 13,
+      "preview": "final class ShipOrder"
+    },
+    {
+      "id": 14,
+      "file": "php/14_service_container_binding.php",
+      "type": "php",
+      "lines": 4,
+      "preview": "$this->app->bind("
+    },
+    {
+      "id": 15,
+      "file": "structure/15_domain_layer_structure.md",
+      "type": "structure",
+      "lines": 13,
+      "preview": "Domain/"
+    },
+    {
+      "id": 16,
+      "file": "php/16_user_registered_event.php",
+      "type": "php",
+      "lines": 9,
+      "preview": "namespace Domain\\Events;"
+    },
+    {
+      "id": 17,
+      "file": "php/17_user_repository_interface.php",
+      "type": "php",
+      "lines": 13,
+      "preview": "namespace Domain\\Repositories;"
+    },
+    {
+      "id": 18,
+      "file": "php/18_password_hasher_interface.php",
+      "type": "php",
+      "lines": 6,
+      "preview": "namespace Domain\\Services;"
+    },
+    {
+      "id": 19,
+      "file": "php/19_password_verifier_interface.php",
+      "type": "php",
+      "lines": 6,
+      "preview": "namespace Domain\\Services;"
+    },
+    {
+      "id": 20,
+      "file": "structure/20_application_layer_structure.md",
+      "type": "structure",
+      "lines": 9,
+      "preview": "Application/"
+    },
+    {
+      "id": 21,
+      "file": "php/21_register_user_use_case.php",
+      "type": "php",
+      "lines": 17,
+      "preview": "final class RegisterUser"
+    },
+    {
+      "id": 22,
+      "file": "structure/22_presentation_layer_structure.md",
+      "type": "structure",
+      "lines": 10,
+      "preview": "Presentation/"
+    },
+    {
+      "id": 23,
+      "file": "php/23_register_user_controller.php",
+      "type": "php",
+      "lines": 15,
+      "preview": "final class RegisterUserController"
+    },
+    {
+      "id": 24,
+      "file": "structure/24_infrastructure_layer_structure.md",
+      "type": "structure",
+      "lines": 9,
+      "preview": "Infrastructure/"
+    },
+    {
+      "id": 25,
+      "file": "php/25_eloquent_user_repository.php",
+      "type": "php",
+      "lines": 12,
+      "preview": "final class EloquentUserRepository implements UserRepository"
+    },
+    {
+      "id": 26,
+      "file": "php/26_bcrypt_password_hasher.php",
+      "type": "php",
+      "lines": 17,
+      "preview": "namespace Infrastructure\\Services;"
+    },
+    {
+      "id": 27,
+      "file": "php/27_user_registered_listener.php",
+      "type": "php",
+      "lines": 12,
+      "preview": "namespace Infrastructure\\Messaging;"
+    },
+    {
+      "id": 28,
+      "file": "structure/28_modules_bounded_context_structure.md",
+      "type": "structure",
+      "lines": 13,
+      "preview": "Modules/"
+    },
+    {
+      "id": 29,
+      "file": "php/29_identity_service_provider_snippet.php",
+      "type": "php",
+      "lines": 10,
+      "preview": "// Modules/Identity/Infrastructure/Providers/IdentityServiceProvider.php"
+    },
+    {
+      "id": "demo",
+      "file": "chapter_05_executable_demo.php",
+      "type": "php",
+      "lines": 117,
+      "preview": "Standalone runnable PHP demo for Chapter 5 domain behavior"
+    },
+    {
+      "id": "demo-output",
+      "file": "output/chapter_05_executable_demo_output.txt",
+      "type": "output",
+      "lines": 5,
+      "preview": "Attempt 1: Cannot ship an unpaid order."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Attempt 1: Cannot ship an unpaid order.
+Attempt 2: order status is shipped.
+Domain events released: 1 (OrderShipped).
+Account approved before approve(): no.
+Account approved after approve(): yes.

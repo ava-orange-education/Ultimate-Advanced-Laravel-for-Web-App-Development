@@ -1,0 +1,5 @@
+PASS: tax is calculated correctly
+PASS: negative tax throws InvalidArgumentException
+Message: Tax percentage cannot be negative.
+PASS: collection has expected item count
+All standalone Chapter 16 demo checks passed.

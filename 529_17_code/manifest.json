@@ -1,0 +1,390 @@
+{
+  "source_document": "529_17_PD_Reviewed_SR.docx",
+  "chapter": "Chapter 17",
+  "block_count": 53,
+  "files": [
+    {
+      "number": 1,
+      "source_table": 1,
+      "path": "php/01_custom_exception_rendering.php",
+      "language": "php",
+      "description": "custom exception rendering"
+    },
+    {
+      "number": 2,
+      "source_table": 2,
+      "path": "php/02_subscription_expired_exception.php",
+      "language": "php",
+      "description": "subscription expired exception"
+    },
+    {
+      "number": 3,
+      "source_table": 3,
+      "path": "php/03_throw_subscription_expired_exception.php",
+      "language": "php",
+      "description": "throw subscription expired exception"
+    },
+    {
+      "number": 4,
+      "source_table": 4,
+      "path": "php/04_standard_api_error_response.php",
+      "language": "php",
+      "description": "standard api error response"
+    },
+    {
+      "number": 5,
+      "source_table": 5,
+      "path": "php/05_abort_forbidden_example.php",
+      "language": "php",
+      "description": "abort forbidden example"
+    },
+    {
+      "number": 6,
+      "source_table": 6,
+      "path": "php/06_abort_not_found_message.php",
+      "language": "php",
+      "description": "abort not found message"
+    },
+    {
+      "number": 7,
+      "source_table": 7,
+      "path": "php/07_rescue_weather_api_fallback.php",
+      "language": "php",
+      "description": "rescue weather api fallback"
+    },
+    {
+      "number": 8,
+      "source_table": 8,
+      "path": "php/08_report_payment_gateway_exception.php",
+      "language": "php",
+      "description": "report payment gateway exception"
+    },
+    {
+      "number": 9,
+      "source_table": 9,
+      "path": "php/09_conditional_report_if_gateway_failed.php",
+      "language": "php",
+      "description": "conditional report if gateway failed"
+    },
+    {
+      "number": 10,
+      "source_table": 10,
+      "path": "php/10_context_aware_exception_log.php",
+      "language": "php",
+      "description": "context aware exception log"
+    },
+    {
+      "number": 11,
+      "source_table": 11,
+      "path": "php/11_simple_order_processed_log.php",
+      "language": "php",
+      "description": "simple order processed log"
+    },
+    {
+      "number": 12,
+      "source_table": 12,
+      "path": "php/12_structured_order_processed_log.php",
+      "language": "php",
+      "description": "structured order processed log"
+    },
+    {
+      "number": 13,
+      "source_table": 13,
+      "path": "php/13_structured_order_processed_log_repeat.php",
+      "language": "php",
+      "description": "structured order processed log repeat"
+    },
+    {
+      "number": 14,
+      "source_table": 14,
+      "path": "config/14_single_log_channel_config.php",
+      "language": "php",
+      "description": "single log channel config"
+    },
+    {
+      "number": 15,
+      "source_table": 15,
+      "path": "config/15_stack_log_channel_config.php",
+      "language": "php",
+      "description": "stack log channel config"
+    },
+    {
+      "number": 16,
+      "source_table": 16,
+      "path": "config/16_daily_log_channel_config.php",
+      "language": "php",
+      "description": "daily log channel config"
+    },
+    {
+      "number": 17,
+      "source_table": 17,
+      "path": "php/17_psr_log_severity_levels.php",
+      "language": "php",
+      "description": "psr log severity levels"
+    },
+    {
+      "number": 18,
+      "source_table": 18,
+      "path": "php/18_contextual_payment_failure_log.php",
+      "language": "php",
+      "description": "contextual payment failure log"
+    },
+    {
+      "number": 19,
+      "source_table": 19,
+      "path": "php/19_correlation_id_middleware.php",
+      "language": "php",
+      "description": "correlation id middleware"
+    },
+    {
+      "number": 20,
+      "source_table": 20,
+      "path": "php/20_profile_updated_request_metadata_log.php",
+      "language": "php",
+      "description": "profile updated request metadata log"
+    },
+    {
+      "number": 21,
+      "source_table": 21,
+      "path": "php/21_dd_order_debug.php",
+      "language": "php",
+      "description": "dd order debug"
+    },
+    {
+      "number": 22,
+      "source_table": 22,
+      "path": "php/22_dump_user_debug.php",
+      "language": "php",
+      "description": "dump user debug"
+    },
+    {
+      "number": 23,
+      "source_table": 23,
+      "path": "php/23_dd_user_debug.php",
+      "language": "php",
+      "description": "dd user debug"
+    },
+    {
+      "number": 24,
+      "source_table": 24,
+      "path": "php/24_logger_payment_started.php",
+      "language": "php",
+      "description": "logger payment started"
+    },
+    {
+      "number": 25,
+      "source_table": 25,
+      "path": "php/25_service_container_bindings_debug.php",
+      "language": "php",
+      "description": "service container bindings debug"
+    },
+    {
+      "number": 26,
+      "source_table": 26,
+      "path": "php/26_payment_gateway_resolution_debug.php",
+      "language": "php",
+      "description": "payment gateway resolution debug"
+    },
+    {
+      "number": 27,
+      "source_table": 27,
+      "path": "php/27_orders_relationship.php",
+      "language": "php",
+      "description": "orders relationship"
+    },
+    {
+      "number": 28,
+      "source_table": 28,
+      "path": "php/28_orders_relationship_sql_debug.php",
+      "language": "php",
+      "description": "orders relationship sql debug"
+    },
+    {
+      "number": 29,
+      "source_table": 29,
+      "path": "php/29_lazy_loading_loop_department.php",
+      "language": "php",
+      "description": "lazy loading loop department"
+    },
+    {
+      "number": 30,
+      "source_table": 30,
+      "path": "php/30_prevent_lazy_loading.php",
+      "language": "php",
+      "description": "prevent lazy loading"
+    },
+    {
+      "number": 31,
+      "source_table": 31,
+      "path": "php/31_dispatch_user_registered_event.php",
+      "language": "php",
+      "description": "dispatch user registered event"
+    },
+    {
+      "number": 32,
+      "source_table": 32,
+      "path": "php/32_user_registered_listener_log.php",
+      "language": "php",
+      "description": "user registered listener log"
+    },
+    {
+      "number": 33,
+      "source_table": 33,
+      "path": "config/33_queue_connection_sync_env.env",
+      "language": "env",
+      "description": "queue connection sync env"
+    },
+    {
+      "number": 34,
+      "source_table": 34,
+      "path": "shell/34_queue_work_command.sh",
+      "language": "sh",
+      "description": "queue work command"
+    },
+    {
+      "number": 35,
+      "source_table": 35,
+      "path": "shell/35_queue_failed_command.sh",
+      "language": "sh",
+      "description": "queue failed command"
+    },
+    {
+      "number": 36,
+      "source_table": 36,
+      "path": "shell/36_install_laravel_debugbar.sh",
+      "language": "sh",
+      "description": "install laravel debugbar"
+    },
+    {
+      "number": 37,
+      "source_table": 37,
+      "path": "shell/37_install_laravel_telescope.sh",
+      "language": "sh",
+      "description": "install laravel telescope"
+    },
+    {
+      "number": 38,
+      "source_table": 38,
+      "path": "shell/38_install_laravel_ray.sh",
+      "language": "sh",
+      "description": "install laravel ray"
+    },
+    {
+      "number": 39,
+      "source_table": 39,
+      "path": "php/39_ray_debug_examples.php",
+      "language": "php",
+      "description": "ray debug examples"
+    },
+    {
+      "number": 40,
+      "source_table": 40,
+      "path": "php/40_ray_queued_job_debug.php",
+      "language": "php",
+      "description": "ray queued job debug"
+    },
+    {
+      "number": 41,
+      "source_table": 42,
+      "path": "php/41_query_listener_service_provider.php",
+      "language": "php",
+      "description": "query listener service provider"
+    },
+    {
+      "number": 42,
+      "source_table": 43,
+      "path": "php/42_hidden_customer_lazy_loading_loop.php",
+      "language": "php",
+      "description": "hidden customer lazy loading loop"
+    },
+    {
+      "number": 43,
+      "source_table": 44,
+      "path": "php/43_eager_load_customer_orders.php",
+      "language": "php",
+      "description": "eager load customer orders"
+    },
+    {
+      "number": 44,
+      "source_table": 45,
+      "path": "php/44_prevent_lazy_loading_repeat.php",
+      "language": "php",
+      "description": "prevent lazy loading repeat"
+    },
+    {
+      "number": 45,
+      "source_table": 46,
+      "path": "php/45_slow_query_listener.php",
+      "language": "php",
+      "description": "slow query listener"
+    },
+    {
+      "number": 46,
+      "source_table": 47,
+      "path": "sql/46_explain_orders_by_customer_query.sql",
+      "language": "sql",
+      "description": "explain orders by customer query"
+    },
+    {
+      "number": 47,
+      "source_table": 48,
+      "path": "php/47_order_transaction_example.php",
+      "language": "php",
+      "description": "order transaction example"
+    },
+    {
+      "number": 48,
+      "source_table": 49,
+      "path": "shell/48_install_laravel_pail.sh",
+      "language": "sh",
+      "description": "install laravel pail"
+    },
+    {
+      "number": 49,
+      "source_table": 50,
+      "path": "shell/49_pail_stream_command.sh",
+      "language": "sh",
+      "description": "pail stream command"
+    },
+    {
+      "number": 50,
+      "source_table": 51,
+      "path": "shell/50_pail_error_level_filter.sh",
+      "language": "sh",
+      "description": "pail error level filter"
+    },
+    {
+      "number": 51,
+      "source_table": 53,
+      "path": "shell/51_install_laravel_pulse.sh",
+      "language": "sh",
+      "description": "install laravel pulse"
+    },
+    {
+      "number": 52,
+      "source_table": 54,
+      "path": "shell/52_pulse_install_and_migrate.sh",
+      "language": "sh",
+      "description": "pulse install and migrate"
+    },
+    {
+      "number": 53,
+      "source_table": 55,
+      "path": "php/53_health_check_route.php",
+      "language": "php",
+      "description": "health check route"
+    },
+    {
+      "number": "demo",
+      "path": "chapter_17_executable_demo.php",
+      "language": "php",
+      "description": "standalone runnable PHP demo that simulates logging, exception formatting, cache lock handling, and health check output"
+    },
+    {
+      "number": "demo-output",
+      "path": "output/chapter_17_executable_demo_output.txt",
+      "language": "txt",
+      "description": "output produced by running the standalone demo"
+    }
+  ]
+}

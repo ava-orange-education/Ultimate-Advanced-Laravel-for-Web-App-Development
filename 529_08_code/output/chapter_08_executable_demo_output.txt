@@ -1,0 +1,37 @@
+Repository lookup: usr_123 user@example.com
+Transaction started
+Created order amount: 100
+Updated balance: 400
+Transaction committed
+Aggregate output:
+[
+    {
+        "id": 123,
+        "name": "Project Alpha",
+        "tasks": [
+            {
+                "id": 1,
+                "title": "Implement API",
+                "time_sessions_sum_duration_in_seconds": 5400
+            },
+            {
+                "id": 2,
+                "title": "Write Tests",
+                "time_sessions_sum_duration_in_seconds": 2700
+            }
+        ]
+    }
+]
+Chunked IDs: [1,2][3,4][5]
+DynamoDB-style item:
+{
+    "id": {
+        "S": "audit_001"
+    },
+    "event": {
+        "S": "user_registered"
+    },
+    "created_at": {
+        "S": "2026-02-14T13:18:46Z"
+    }
+}

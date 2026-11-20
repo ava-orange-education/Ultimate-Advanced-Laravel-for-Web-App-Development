@@ -1,0 +1,8 @@
+type Mutation {
+    createUser(
+        first_name: String! @rules(apply: ["required", "min:3"])
+        last_name: String! @rules(apply: ["required", "min:3"])
+        email: String! @rules(apply: ["required", "email"])
+        password: String @rules(apply: ["required"])
+    ): User @field(resolver: "Modules\\Identity\\Presentation\\GraphQL\\Mutations\\CreateUserResolver")
+}

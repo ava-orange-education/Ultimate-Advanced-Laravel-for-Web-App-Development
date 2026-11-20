@@ -1,0 +1,615 @@
+{
+  "source_document": "529_09_PD_Revised_SD.docx",
+  "chapter": 9,
+  "count_extracted_blocks": 74,
+  "files": [
+    {
+      "index": 1,
+      "path": "php/01_user_registered_domain_event.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 8,
+      "preview": "namespace Modules\\Identity\\Domain\\Events;"
+    },
+    {
+      "index": 2,
+      "path": "php/02_dispatch_user_registered_event.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 4,
+      "preview": "event(new UserRegistered("
+    },
+    {
+      "index": 3,
+      "path": "php/03_closure_based_event_listener.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 11,
+      "preview": "use Illuminate\\Support\\Facades\\Event;"
+    },
+    {
+      "index": 4,
+      "path": "php/04_closure_listener_with_manual_dependency_resolution.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 4,
+      "preview": "Event::listen(UserRegistered::class, function (UserRegistered $event) {"
+    },
+    {
+      "index": 5,
+      "path": "php/05_queueable_anonymous_listener.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 6,
+      "preview": "use function Illuminate\\Events\\queueable;"
+    },
+    {
+      "index": 6,
+      "path": "php/06_queueable_listener_connection_queue_delay.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 5,
+      "preview": "Event::listen(queueable(function (UserRegistered $event) {"
+    },
+    {
+      "index": 7,
+      "path": "php/07_queueable_listener_failure_catch.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 6,
+      "preview": "use Throwable;"
+    },
+    {
+      "index": 8,
+      "path": "php/08_wildcard_event_listener.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 3,
+      "preview": "Event::listen('event.*', function (string $eventName, array $data) {"
+    },
+    {
+      "index": 9,
+      "path": "php/09_grant_signup_credits_listener.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 7,
+      "preview": "final class GrantSignupCreditsListener implements ShouldQueue"
+    },
+    {
+      "index": 10,
+      "path": "sql/10_signup_credit_unique_constraint.sql",
+      "type": "sql",
+      "extension": "sql",
+      "lines": 1,
+      "preview": "UNIQUE(user_id, reason)"
+    },
+    {
+      "index": 11,
+      "path": "php/11_grant_signup_credit_state_check.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 7,
+      "preview": "public function grantToUser(int $userId): void"
+    },
+    {
+      "index": 12,
+      "path": "php/12_idempotency_key_example.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 1,
+      "preview": "user_registered:{user_id}"
+    },
+    {
+      "index": 13,
+      "path": "php/13_idempotency_key_listener.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 9,
+      "preview": "public function handle(UserRegistered $event): void"
+    },
+    {
+      "index": 14,
+      "path": "php/14_queued_listener_tries.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 9,
+      "preview": "use Illuminate\\Contracts\\Queue\\ShouldQueue;"
+    },
+    {
+      "index": 15,
+      "path": "php/15_fixed_backoff_property.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 1,
+      "preview": "public int $backoff = 10; // seconds"
+    },
+    {
+      "index": 16,
+      "path": "php/16_progressive_backoff_method.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 4,
+      "preview": "public function backoff(): array"
+    },
+    {
+      "index": 17,
+      "path": "php/17_max_exceptions_property.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 1,
+      "preview": "public int $maxExceptions = 2;"
+    },
+    {
+      "index": 18,
+      "path": "php/18_timeout_property.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 1,
+      "preview": "public int $timeout = 30; // seconds"
+    },
+    {
+      "index": 19,
+      "path": "php/19_listener_failed_method.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 6,
+      "preview": "public function failed(UserRegistered $event, \\Throwable $exception): void"
+    },
+    {
+      "index": 20,
+      "path": "php/20_eloquent_creating_hook.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 3,
+      "preview": "User::creating(function (UserModel $user) {"
+    },
+    {
+      "index": 21,
+      "path": "php/21_eloquent_created_hook.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 3,
+      "preview": "User::created(function (UserModel $user) {"
+    },
+    {
+      "index": 22,
+      "path": "php/22_user_observer.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 18,
+      "preview": "namespace Modules\\Identity\\Infrastructure\\Observers;"
+    },
+    {
+      "index": 23,
+      "path": "php/23_register_user_observer.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 1,
+      "preview": "UserModel::observe(UserObserver::class);"
+    },
+    {
+      "index": 24,
+      "path": "php/24_audit_log_observer.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 20,
+      "preview": "namespace Modules\\Telemetry\\Infrastructure\\Observers;"
+    },
+    {
+      "index": 25,
+      "path": "shell/25_make_job_command.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "php artisan make:job SendWelcomeEmailJob"
+    },
+    {
+      "index": 26,
+      "path": "structure/26_modular_job_directory_structure.tree",
+      "type": "structure",
+      "extension": "tree",
+      "lines": 5,
+      "preview": "Modules/"
+    },
+    {
+      "index": 27,
+      "path": "php/27_send_welcome_email_job.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 12,
+      "preview": "namespace Modules\\Identity\\Application\\Jobs;"
+    },
+    {
+      "index": 28,
+      "path": "php/28_dispatch_welcome_email_job.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 1,
+      "preview": "SendWelcomeEmailJob::dispatch($userId);"
+    },
+    {
+      "index": 29,
+      "path": "php/29_job_chain_onboarding.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 6,
+      "preview": "use Illuminate\\Support\\Facades\\Bus;"
+    },
+    {
+      "index": 30,
+      "path": "php/30_job_chain_on_queue.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 4,
+      "preview": "Bus::chain(["
+    },
+    {
+      "index": 31,
+      "path": "php/31_recalculate_user_balance_job.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 10,
+      "preview": "final class RecalculateUserBalanceJob implements ShouldQueue"
+    },
+    {
+      "index": 32,
+      "path": "php/32_without_overlapping_middleware.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 7,
+      "preview": "use Illuminate\\Queue\\Middleware\\WithoutOverlapping;"
+    },
+    {
+      "index": 33,
+      "path": "php/33_batch_generate_user_reports.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 6,
+      "preview": "use Illuminate\\Support\\Facades\\Bus;"
+    },
+    {
+      "index": 34,
+      "path": "php/34_batch_callbacks.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 14,
+      "preview": "Bus::batch(["
+    },
+    {
+      "index": 35,
+      "path": "php/35_store_batch_instance.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 4,
+      "preview": "$batch = Bus::batch(["
+    },
+    {
+      "index": 36,
+      "path": "php/36_cancel_batch.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 1,
+      "preview": "$batch->cancel();"
+    },
+    {
+      "index": 37,
+      "path": "php/37_batch_cancellation_check.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 11,
+      "preview": "public function handle(): void"
+    },
+    {
+      "index": 38,
+      "path": "shell/38_failed_jobs_table_setup.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 2,
+      "preview": "php artisan queue:failed-table"
+    },
+    {
+      "index": 39,
+      "path": "shell/39_queue_failed_command.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "php artisan queue:failed"
+    },
+    {
+      "index": 40,
+      "path": "shell/40_queue_retry_single_job.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "php artisan queue:retry {id}"
+    },
+    {
+      "index": 41,
+      "path": "shell/41_queue_retry_all_jobs.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "php artisan queue:retry all"
+    },
+    {
+      "index": 42,
+      "path": "php/42_job_failed_method.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 7,
+      "preview": "public function failed(\\Throwable $exception): void"
+    },
+    {
+      "index": 43,
+      "path": "php/43_global_queue_failure_listener.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 12,
+      "preview": "use Illuminate\\Support\\Facades\\Queue;"
+    },
+    {
+      "index": 44,
+      "path": "shell/44_queue_work_command.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "php artisan queue:work"
+    },
+    {
+      "index": 45,
+      "path": "shell/45_install_supervisor.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 2,
+      "preview": "sudo apt update"
+    },
+    {
+      "index": 46,
+      "path": "shell/46_start_enable_supervisor.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 2,
+      "preview": "sudo systemctl start supervisor"
+    },
+    {
+      "index": 47,
+      "path": "shell/47_supervisor_status.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "sudo systemctl status supervisor"
+    },
+    {
+      "index": 48,
+      "path": "config/48_supervisor_queue_worker_config.conf",
+      "type": "config",
+      "extension": "conf",
+      "lines": 11,
+      "preview": "[program:myapp-worker]"
+    },
+    {
+      "index": 49,
+      "path": "shell/49_activate_supervisor_config.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 3,
+      "preview": "sudo supervisorctl reread"
+    },
+    {
+      "index": 50,
+      "path": "shell/50_install_horizon.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "composer require laravel/horizon"
+    },
+    {
+      "index": 51,
+      "path": "shell/51_horizon_install_migrate.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 2,
+      "preview": "php artisan horizon:install"
+    },
+    {
+      "index": 52,
+      "path": "shell/52_start_horizon.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "php artisan horizon"
+    },
+    {
+      "index": 53,
+      "path": "config/53_horizon_environment_config.php",
+      "type": "config",
+      "extension": "php",
+      "lines": 9,
+      "preview": "'environments' => ["
+    },
+    {
+      "index": 54,
+      "path": "config/54_horizon_dashboard_path.url",
+      "type": "config",
+      "extension": "url",
+      "lines": 1,
+      "preview": "/horizon"
+    },
+    {
+      "index": 55,
+      "path": "config/55_horizon_scaling_config.php",
+      "type": "config",
+      "extension": "php",
+      "lines": 9,
+      "preview": "'production' => ["
+    },
+    {
+      "index": 56,
+      "path": "config/56_supervisor_horizon_command.conf",
+      "type": "config",
+      "extension": "conf",
+      "lines": 1,
+      "preview": "command=php /var/www/myapp/artisan horizon"
+    },
+    {
+      "index": 57,
+      "path": "shell/57_install_swoole.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "pecl install swoole"
+    },
+    {
+      "index": 58,
+      "path": "shell/58_install_openswoole.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "pecl install openswoole"
+    },
+    {
+      "index": 59,
+      "path": "shell/59_install_octane_frankenphp.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "php artisan octane:install --server=frankenphp"
+    },
+    {
+      "index": 60,
+      "path": "shell/60_start_octane.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "php artisan octane:start"
+    },
+    {
+      "index": 61,
+      "path": "shell/61_start_octane_with_workers.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "php artisan octane:start --workers=4"
+    },
+    {
+      "index": 62,
+      "path": "shell/62_start_octane_max_requests.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "php artisan octane:start --max-requests=250"
+    },
+    {
+      "index": 63,
+      "path": "php/63_octane_concurrent_tasks.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 5,
+      "preview": "use Laravel\\Octane\\Facades\\Octane;"
+    },
+    {
+      "index": 64,
+      "path": "php/64_octane_tick_refresh_metrics.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 4,
+      "preview": "use Laravel\\Octane\\Facades\\Octane;"
+    },
+    {
+      "index": 65,
+      "path": "shell/65_octane_reload.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "php artisan octane:reload"
+    },
+    {
+      "index": 66,
+      "path": "php/66_dispatch_jobs_to_priority_queues.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 2,
+      "preview": "SendSecurityAlertJob::dispatch($data)->onQueue('high');"
+    },
+    {
+      "index": 67,
+      "path": "shell/67_worker_priority_queue_order.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "php artisan queue:work --queue=high,default,low"
+    },
+    {
+      "index": 68,
+      "path": "shell/68_separate_worker_pools.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 3,
+      "preview": "php artisan queue:work --queue=high"
+    },
+    {
+      "index": 69,
+      "path": "php/69_sqs_fifo_message_group.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 2,
+      "preview": "ProcessOrder::dispatch($order)"
+    },
+    {
+      "index": 70,
+      "path": "php/70_subscription_renewal_deduplication.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 8,
+      "preview": "class ProcessSubscriptionRenewal implements ShouldQueue"
+    },
+    {
+      "index": 71,
+      "path": "php/71_shipment_notification_fifo_methods.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 11,
+      "preview": "class SendShipmentNotification"
+    },
+    {
+      "index": 72,
+      "path": "php/72_fifo_mailable_group_deduplicator.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 4,
+      "preview": "$invoicePaid = (new InvoicePaid($invoice))"
+    },
+    {
+      "index": 73,
+      "path": "php/73_fifo_notification_group_deduplicator.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 4,
+      "preview": "$invoicePaid = (new InvoicePaid($invoice))"
+    },
+    {
+      "index": 74,
+      "path": "shell/74_queue_restart.sh",
+      "type": "shell",
+      "extension": "sh",
+      "lines": 1,
+      "preview": "php artisan queue:restart"
+    },
+    {
+      "index": "demo",
+      "path": "chapter_09_executable_demo.php",
+      "type": "php",
+      "extension": "php",
+      "lines": 94,
+      "preview": "Standalone executable demo inspired by Chapter 9"
+    },
+    {
+      "index": "output",
+      "path": "output/chapter_09_executable_demo_output.txt",
+      "type": "output",
+      "extension": "txt",
+      "lines": 6,
+      "preview": "Output produced by running the standalone demo"
+    }
+  ]
+}

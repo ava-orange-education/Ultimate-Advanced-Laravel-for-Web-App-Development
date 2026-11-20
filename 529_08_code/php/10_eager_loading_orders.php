@@ -1,0 +1,1 @@
+$user = UserModel::with('orders')->find($id);

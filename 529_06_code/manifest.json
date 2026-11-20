@@ -1,0 +1,176 @@
+{
+  "chapter": 6,
+  "source_document": "529_06_PD_Reviewed_SR.docx",
+  "count": 34,
+  "snippets": [
+    {
+      "path": "structure/01_cqrs_directory_structure.md",
+      "description": "CQRS directory structure example",
+    },
+    {
+      "path": "php/02_register_user_command.php",
+      "description": "Register user command object",
+      "language": "php"
+    },
+    {
+      "path": "php/03_register_user_handler.php",
+      "description": "Register user command handler",
+      "language": "php"
+    },
+    {
+      "path": "php/04_user_repository_contract.php",
+      "description": "User repository contract",
+      "language": "php"
+    },
+    {
+      "path": "php/05_eloquent_user_repository.php",
+      "description": "Eloquent implementation of user repository",
+      "language": "php"
+    },
+    {
+      "path": "php/06_identity_service_provider.php",
+      "description": "Service provider binding repository contract",
+      "language": "php"
+    },
+    {
+      "path": "php/07_register_controller.php",
+      "description": "Controller dispatching register command",
+      "language": "php"
+    },
+    {
+      "path": "php/08_command_bus_contract.php",
+      "description": "Command bus contract",
+      "language": "php"
+    },
+    {
+      "path": "php/09_laravel_command_bus_mapping.php",
+      "description": "Command bus with explicit mapping array",
+      "language": "php"
+    },
+    {
+      "path": "php/10_bus_service_provider.php",
+      "description": "Service provider registering command bus and mappings",
+      "language": "php"
+    },
+    {
+      "path": "php/11_find_user_by_email_query.php",
+      "description": "Find user by email query object",
+      "language": "php"
+    },
+    {
+      "path": "php/12_generic_get_user_query.php",
+      "description": "Generic query naming example",
+      "language": "php"
+    },
+    {
+      "path": "php/13_find_user_by_email_query_named.php",
+      "description": "Intention-revealing query example",
+      "language": "php"
+    },
+    {
+      "path": "php/14_specific_user_list_queries.php",
+      "description": "Specific list user query objects",
+      "language": "php"
+    },
+    {
+      "path": "php/15_broad_list_users_query.php",
+      "description": "Overly broad query example",
+      "language": "php"
+    },
+    {
+      "path": "php/16_split_list_user_queries.php",
+      "description": "Split focused query examples",
+      "language": "php"
+    },
+    {
+      "path": "php/17_find_user_by_email_handler.php",
+      "description": "Query handler using read model",
+      "language": "php"
+    },
+    {
+      "path": "php/18_user_read_model.php",
+      "description": "Read model optimized for query side",
+      "language": "php"
+    },
+    {
+      "path": "php/19_find_user_by_email_controller.php",
+      "description": "Read-side controller dispatching query",
+      "language": "php"
+    },
+    {
+      "path": "php/20_query_bus_contract.php",
+      "description": "Query bus contract",
+      "language": "php"
+    },
+    {
+      "path": "php/21_query_handler_locator.php",
+      "description": "Query handler locator using naming convention",
+      "language": "php"
+    },
+    {
+      "path": "php/22_laravel_query_bus.php",
+      "description": "Laravel query bus implementation",
+      "language": "php"
+    },
+    {
+      "path": "php/23_shared_service_provider_query_bus.php",
+      "description": "Service provider registering query bus",
+      "language": "php"
+    },
+    {
+      "path": "php/24_inline_request_validation.php",
+      "description": "Request boundary validation example",
+      "language": "php"
+    },
+    {
+      "path": "php/25_find_user_by_email_request.php",
+      "description": "Form request for query input validation",
+      "language": "php"
+    },
+    {
+      "path": "php/26_transaction_manager.php",
+      "description": "Transaction manager abstraction",
+      "language": "php"
+    },
+    {
+      "path": "php/27_laravel_command_bus_transactional.php",
+      "description": "Transactional command bus",
+      "language": "php"
+    },
+    {
+      "path": "php/28_profile_commands.php",
+      "description": "Multiple command objects for profile workflow",
+      "language": "php"
+    },
+    {
+      "path": "php/29_command_bus_contract_multiple.php",
+      "description": "Command bus contract with dispatchMultiple",
+      "language": "php"
+    },
+    {
+      "path": "php/30_laravel_command_bus_dispatch_multiple.php",
+      "description": "Command bus orchestrating multiple commands transactionally",
+      "language": "php"
+    },
+    {
+      "path": "php/31_dispatch_multiple_profile_commands.php",
+      "description": "Controller-level multiple command dispatch example",
+      "language": "php"
+    },
+    {
+      "path": "php/32_laravel_command_bus_logging.php",
+      "description": "Command bus logging started/succeeded/failed events",
+      "language": "php"
+    },
+    {
+      "path": "chapter_06_executable_demo.php",
+      "description": "Standalone runnable PHP demo for Chapter 6 CQRS command dispatch",
+      "language": "php"
+    },
+    {
+      "path": "output/chapter_06_executable_demo_output.txt",
+      "description": "Output produced by standalone demo",
+      "language": "output"
+    }
+  ]
+}

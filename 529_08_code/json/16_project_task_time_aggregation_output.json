@@ -1,0 +1,18 @@
+[
+  {
+    "id": 123,
+    "name": "Project Alpha",
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Implement API",
+        "time_sessions_sum_duration_in_seconds": 5400
+      },
+      {
+        "id": 2,
+        "title": "Write Tests",
+        "time_sessions_sum_duration_in_seconds": 2700
+      }
+    ]
+  }
+]
